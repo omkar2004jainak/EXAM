@@ -9,4 +9,3 @@ payload = "yada yada yada" # Packet payload
 while True:
     spoofed_packet = IP(src=A, dst=B) / TCP(sport=C, dport=D) / payload
     send(spoofed_packet)
-    print(spoofed_packet)
