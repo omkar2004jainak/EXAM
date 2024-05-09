@@ -1,6 +1,6 @@
 from scapy.all import *
 
-A = "172.16.7.75"   # Spoofed source IP address
+A = "172.16.8.75"   # Spoofed source IP address
 B = "172.16.7.75" # Destination IP address
 C = RandShort()     # Source port (random)
 D = 80              # Destination port
